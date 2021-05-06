@@ -14,6 +14,7 @@
  *= require_self
  */
 
-@import "bootstrap/scss/bootstrap"; /* picks it up in node_modules! */
+@import "bootstrap/scss/bootstrap";
 
-@import "components/banner/index;
+@import url(banner/index);
+@import url(playerHome/index);

@@ -1,0 +1,14 @@
+.player-grid-home{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 10px;
+}
+
+.player-card{
+  height: 280px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 200px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
