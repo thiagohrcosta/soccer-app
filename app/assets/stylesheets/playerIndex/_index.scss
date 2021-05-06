@@ -1,0 +1,19 @@
+.player-show-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 10px;
+}
+
+.player-show-card{
+  height: 290px;
+  padding: 10px;
+  border: 1px solid black;
+  width: 220px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.img-player-show-card{
+  width: 200px;
+  height: 270px;
+}

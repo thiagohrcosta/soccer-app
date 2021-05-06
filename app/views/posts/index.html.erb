@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="player-show-grid">
+    <% @posts.each do |post| %>
+    <div class="player-show-card">
+      <img class="img-player-show-card" src="<%= post.photo %>" alt="">
+    </div>
+    <% end %>
+  </div>
+</div>
