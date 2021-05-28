@@ -1,17 +1,12 @@
-<div class="container">
-  <div class="player-grid-home">
-    <!-- for each -->
-    <div class="">
-      <img class="player-card" src="https://i.pinimg.com/originals/6f/42/27/6f42271f2dd2bd5259634bdb21f08aec.jpg">
+  <div class="container">
+  <div class="player-show-grid">
+    <% @posts.each do |post| %>
+
+    <div class="player-show-card">
+      <%= link_to post_path(post.id) do %>
+      <img class="img-player-show-card" src="<%= post.photo %>" alt="">
+      <% end %>
     </div>
-    <div class="">
-      <img class="player-card" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Argentina_celebrando_copa_%28cropped%29.jpg/210px-Argentina_celebrando_copa_%28cropped%29.jpg">
-    </div>
-    <div class="">
-      <img class="player-card" src="https://i.pinimg.com/originals/51/5a/ff/515affb75791111a8f37e3160e5160b8.jpg">
-    </div>
-    <div class="">
-      <img class="player-card" src="https://i.pinimg.com/736x/a3/42/42/a34242d1ab65dcd0cc45eb89e961acf0.jpg">
-    </div>
+    <% end %>
   </div>
 </div>

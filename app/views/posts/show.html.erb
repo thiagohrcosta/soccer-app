@@ -1,0 +1,26 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-lg-6">
+      <img class="img-player" src="<%= @post.photo %>" alt="">
+    </div>
+    <div class="col-lg-6 bg-right-player p-5">
+      <div class="player-info">
+        <h1>
+          <%= @post.alias %>
+        </h1>
+          <img src="<%= @post.flag %>">
+      </div>
+      <div class="mt-3">
+        <%= @post.content %>
+      </div>
+
+      <div class="mt-3">
+        <p class="player-price">
+          Buy: $ <%= @post.price %>,00
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+

@@ -1,0 +1,25 @@
+.img-player{
+  border-radius: 20px 0 0 20px;
+  width: 100%;
+}
+
+.bg-right-player{
+  background-color: #e4efe7;
+}
+
+
+.player-price{
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+  padding: 10px;
+  background-color: #1cc5dc;
+  border-radius: 5px;
+}
+
+
+.player-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
